@@ -1,0 +1,8 @@
+.cache/
+.firebase/
+public/build/
+public/data/
+node_modules/
+*-debug.log
+src/shared/firebaseConfig.js
+src/GameMaster/credentials.js

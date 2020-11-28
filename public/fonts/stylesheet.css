@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'korinna_btregular';
+    src: url('korinan-webfont.woff2') format('woff2'),
+         url('korinan-webfont.woff') format('woff'),
+         url('korinan-webfont.svg#korinna_btregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

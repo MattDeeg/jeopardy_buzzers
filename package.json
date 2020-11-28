@@ -1,0 +1,26 @@
+{
+  "name": "buzzers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup --watch --config",
+    "build": "rollup --config",
+    "deploy": "yarn build && firebase deploy"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "firebase": "^8.1.1",
+    "firebase-admin": "^9.4.1",
+    "puppeteer": "^5.5.0",
+    "rollup": "^2.33.3",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "sirv-cli": "^1.0.8",
+    "svelte": "^3.30.0",
+    "unique-slug": "^2.0.2",
+    "uuid": "^8.3.1"
+  }
+}
